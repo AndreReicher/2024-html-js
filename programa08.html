@@ -13,7 +13,9 @@
       }
 
       let materia = prompt('Qual disciplina você quer saber a media?')
+      
       let trimestre = prompt(`Quantos trimestres você ja fez de ${materia}?`)
+
       for(let i = 1; i <= trimestre; i++){
         let nota = parseInt(prompt(`Qual a sua nota no ${i} º Trimestre?`))
         totalNotas = totalNotas + notas
