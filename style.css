@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte-titulo: "Antic Slab", serif;
+    --fonte-texto: "Antic Slab", serif;
+    --federal-blue: #03045eff;
+    --honolulu-blue: #0077b6ff;
+    --pacific-cyan: #00b4d8ff;
+    --non-photo-blue: #90e0efff;
+    --light-cyan: #caf0f8ff;
+}
+
+
+body{
+    background-color: var(--light-cyan);
+    font-family: var(--honolulu-blue);
+}
+header{
+    background-color: var(--federal-blue);
+    text-align: var(--non-photo-blue);
+    padding: 2em;
+    color: var(--pacific-cyan);
+}
+header h1{
+    font-family: var(--federal-blue);
+    font-size: 2.5em;
+}
+
+.projetos{
+    padding: 2em;
+    display: flex;
+}
