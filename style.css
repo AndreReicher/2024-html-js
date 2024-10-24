@@ -20,6 +20,13 @@ body{
     background-color: var(--light-cyan);
     font-family: var(--honolulu-blue);
 }
+
+header, footer{
+    background-color: var(--federal-blue);
+    text-align: center;
+    padding: 2em;
+    color: var(--light-cyan);
+}
 header{
     background-color: var(--federal-blue);
     text-align: var(--non-photo-blue);
@@ -34,4 +41,30 @@ header h1{
 .projetos{
     padding: 2em;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cartao{
+    text-align: center;
+    background-color: var(--federal-blue);
+    width: 100%;
+    margin: 1em 0;
+    color: var(--light-cyan);
+    padding: 1em 0;
+    border-radius: 10px;
+}
+
+.cartao:hover{
+    background-color: var(--honolulu-blue);
+}
+
+.cartao a{
+    text-decoration: none;
+    color: var(--pacific-cyan);
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--light-cyan);
 }
